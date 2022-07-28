@@ -1,0 +1,165 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+}
+p{
+    color: #8f8f8f;
+}
+
+/*********************************HEADINGS****************************************/
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.h3-heading{
+    font-size: 1.5rem;
+}
+/**********************************BACKGROUND-COLOR********************************/
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+/**********************************CONTAINER***************************************/
+.container-fluid{
+    padding: 1.5% 15% 5%;
+}
+/*************************************TITLE****************************************/
+#title{
+    text-align: left;
+}
+/**************************************NAVIGATION BAR***************************/
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 1em;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 100px;
+}
+/**********************Download Buttons*******************/
+.download-button{
+    margin: 5% 3% 5% 0;
+} 
+
+/***********************Title Imagen**************************/
+.dog-img{
+    width: 13%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+/*****************************features********************************/
+#features{
+    padding: 5% 15% 5%;
+    background-color: #fff;
+    position:relative;
+}
+.feature-col{
+    padding: 5%;
+}
+.feature-img{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.feature-img:hover{
+    color: #ff4c68;
+}
+/************************testimonials***************/
+#testimonials{
+    background-color: #ef8172;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 1.25em;
+}
+.carousel-btn{
+    height: 15%;
+    width: 15%;
+}
+/**********************Prensa************************/
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 10%;
+    margin: 1.3em 2em 3em;
+}
+
+/*********************Pricing**********************/
+.pricing-col{
+    padding: 3% 2%;
+}
+
+/********************CTA********************************/
+#cta,#footer{
+    padding: 3% 10%;
+}
+.h3-cta{
+    font-size: 2.5em;
+}
+.btn-cta{
+    margin: 3em 2em 1em;
+}
+/**********************Footer************************/
+.footer-icon{
+    margin: 1.5rem;
+}
+.link-footer{
+    color: #8f8f8f;
+}
+/**********************Reactive**************************/
+@media (max-width: 48em){
+    #title{
+        text-align: center;
+    }
+    .dog-img{
+        position: static;
+        transform: rotate(0deg);
+        width: 60%;
+    }
+    .carousel-btn{
+        height: 10%;
+        width: 50%;
+    }
+    .press-img{
+        width: 25%;
+    }
+    h2{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .testimonial-img{
+        width: 35%;
+    }
+    #cta{
+        padding: 5%;
+    }
+    .h3-cta{
+        font-size: 2rem;
+    }
+}
